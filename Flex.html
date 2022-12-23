@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  a {color: black ;}
+ img{border-radius: 8px;} 
+  @font-face {
+    font-family: Pacifico;
+    src: url(Pacifico-Regular.ttf);
+  }
+  .p2{font-family: Arial, Helvetica, sans-serif;}
+  .p1{font-family: Pacifico }
+  .button-1 {
+  background-color: orangered;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 30px;
+  width: 120px;
+  margin: 0px;
+  touch-action: manipulation;
+  
+}
+.button-1:hover {
+      background-color:b;
+      transition: 0.5s;}
+.logo {
+
+        
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-end;
+}
+
+.logo 
+ div {
+  width: 50px;
+  margin: 5px;
+  text-align: start;
+ 
+}
+.links {
+       display: flex;
+       list-style: none;
+       gap:20px;
+       align-items: center;
+       
+      }
+      a:link{text-decoration: none;}
+.container2 {
+display: grid;
+grid-template-columns: 900px 0fr;
+grid-template-rows: 300px 0fr;
+gap: px;
+text-align: left;
+align-items: center;
+justify-content: center;
+flex-wrap: nowrap;
+grid-template-areas:
+"centent-1 content-2"
+"content-3 content-4" 
+"content-5 content-6";
+}
+
+.content-1 {grid-area: content-1;
+}
+
+.content-2 {grid-area: content-2;
+}
+
+.content-3 {
+grid-area: content-3;}
+.content-4{grid-area: content-4;}
+.content-5{grid-area: content-5;}
+.content-6{grid-area: content-6;}
+</style>
+</head>
+<body>
+  <div class="logo" >
+    <h2 class="p1">Pixelmatter</h2>
+    <ul class="links">
+     <li class="p2"> <a href="">Work</a></li>
+     <li class="p2"><a href="">Approach</a></li>
+      <li class="p2"><a href="">Career</a></li>
+      <li class="p2"><a href=""><u><b>Blog</b></u></a></li>
+      <li class="p2"><button class="button-1"> Get In Touch </button></li>
+    </ul>
+  </div>
+<p></p>
+<div class="container2">
+    <div><img src="start-streaming.jpg" height="300px" width="600px" alt=""  ></div>
+    <div class="p2"><h1 class="p2">How to succeed<br> in the gaming industry ?</h1><p class="p2">The gaming industry is a creative one,
+         so it makes perfect sense that you need to be creative to succeed.<br> And you don't have to be an artist or a writer to apply your creative thinking; <br>
+         there are many challenges that need creative solutions.<br>
+          For example, a particular system in the game may need some heavy computing, <br>so you can come up with a creative solution that instead of fully computing the problem, <br>
+         you merely use a simpler formula and estimate the result. </p></l></div>
+    <div><img src="Console-vs-PC-Gaming.jpg" height="240px" width="600px"> </div>
+    <div><img src="maxresdefault.jpg" height="250px" width="500px" alt=""></div>
+    <div><h1 class="p2"> is a PC better than a console?</h1><p class="p2">When considering the epic battle between console or PC,
+       it's important to consider not only budget,<br> 
+       but what experience overall you are looking to have.<br>
+        As a gamer, are you most concerned with convenience? <br>
+        Or cost? Multi-player online gaming?<br>
+         Do you enjoy or would you be interested in upgrading a computer yourself? <br>
+         At Crucial® the answer is clear; PC gaming is king. <br>
+         It's a better experience gaming on a PC than console due to all the advantages that PC gaming offers. <br>
+         No matter what you choose, the important thing is to play and have fun.</p></div>
+         <div><h1 class="p2"> FPS vs. TPS</h1><p class="p2">I was having a conversation with someone about games when they asked "What's the advantage of playing a shooter in third-person?" My first response was cover systems. It's pretty rare for a fps to have an actual mechanic for taking cover beyond crouching/prone. But is that it?
+
+          The next thing that came to mind was bodily awareness,
+           but this isn't a problem I have or hear about when playing an fps.
+            The only other thing that came to mind was perhaps a better feeling of immersion from playing in first-person but that's subjective.
+             What are your thoughts on this? 
+             Am I missing any larger difference between the mechanics of the two genres beyond PoV?</p></div>
+</div>
+
+</body>
+</html>
